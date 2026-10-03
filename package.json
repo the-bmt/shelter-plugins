@@ -1,10 +1,27 @@
 {
+  "name": "root",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "plugins/*"
+  ],
+  "scripts": {
+    "build": "lune ci",
+    "dev": "lune dev"
+  },
+  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-bmt/shelter-plugins.git"
+  },
+  "author": "the-bmt",
+  "license": "GPL-3.0-only",
   "devDependencies": {
-    "@uwu/shelter-defs": "^1.0.2",
-    "esbuild": "^0.15.13",
-    "esbuild-plugin-solid": "^0.4.2",
-    "esbuild-sass-plugin-ysink": "^2.3.3",
-    "postcss": "^8.4.17",
-    "postcss-modules": "^5.0.0"
+    "@uwu/lune": "^1.6.3",
+    "@uwu/shelter-defs": "^1.5.1",
+    "esbuild": "^0.28.0",
+    "globals": "^15.15.0",
+    "typescript": "^5.9.3"
   }
 }

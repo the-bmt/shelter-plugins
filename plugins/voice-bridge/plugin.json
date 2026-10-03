@@ -1,0 +1,6 @@
+{
+  "name": "Voice Bridge",
+  "author": "the-bmt",
+  "description": "Streams internal Discord voice state and speaking events to a local WebSocket server",
+  "version": "1.0.0"
+}
