@@ -5,7 +5,7 @@ To install, copy the corresponding URL into Shelter.<br><br>
 
 ## Plugins
 
-### [Nightride FM](plugins/nightride-fm/)
+### [VoiceBridge](plugins/voice-bridge/)
 ```
-https://ponymodz.github.io/shelter-plugins/nightride-fm/
+https://the-bmt.github.io/shelter-plugins/voice-bridge/
 ```
